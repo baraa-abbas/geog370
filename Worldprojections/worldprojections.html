@@ -9,7 +9,8 @@
     <h1>In this project I learned how to display images in different projections</h1>
     
     <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <p>You can write a paragraph here</p>
+    <p>In the bottom right hand corner of QGIS, to the left of a comment bubble there will be a globe icon followed by "ESRI:####" or "EPSG:...". <br>
+        Click on that to change the projection of the shapefile. You just need to search the ESRI number.</p>
     
     <h2>WGS84 Projection</h2>
     <h3>Some observations</h3>
@@ -25,52 +26,90 @@
 
     <h2>Aitoff Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>map is not a rectangle</li>
+        <li>shape distorted as you look away from the meridian and equator</li>
+        <li>area looks better conserved near meridian</li>
+        <li>Greenland vs. Africa looks accurate</li>
+    </ul>
     <a href=".//maps/54043.png">
     <img src=".//maps/54043.png" alt="Aitoff" width='500px'>
     </a>
 
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
-    <p></p>
-
     <h2>Web Mercator Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>right angle grid</li>
+        <li>shape preserved</li>
+        <li>poles appear bigger</li>
+    </ul>
     <a href="maps/EPSG 3857.png">
         <img src="maps/EPSG 3857.png" alt="Web Mercator" width='500px'>
     </a>
 
     <h2>Sphere Winkel I Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>not as much area distortion vs. Mercator</li>
+        <li>non-rectangle map</li>
+        <li>shape is distorted a bit along the edges of the map</li>
+    </ul>
     <a href="maps/EPSG 53018.png">
         <img src="maps/EPSG 53018.png" alt="Sphere Winkel I" width='500px'>
     </a>
 
     <h2>World Cyclindrical Equal Area Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>right angle grid</li>
+        <li>area preserved</li>
+        <li>shape is very distorted away from the equator</li>
+    </ul>
     <a href="maps/ESRI 54034.png">
         <img src="maps/ESRI 54034.png" alt="World Cyclindrical Equal Area" width='500px'>
     </a>
 
     <h2>World Equidistant Conic Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>round map</li>
+        <li>Antarctica is around almost everything</li>
+        <li>Alaska and Russia are far apart</li>
+    </ul>
     <a href="maps/ESRI 54027.png">
         <img src="maps/ESRI 54027.png" alt="World Equidistant Conic" width='500px'>
     </a>
 
     <h2>North Pole Azimuthal Equidistant Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>round map</li>
+        <li>Antarctica encircles the rest of the world</li>
+        <li>Alaska and Russia are close</li>
+        <li>UN map</li>
+    </ul>
     <a href="maps/ESRI 102016.png">
         <img src="maps/ESRI 102016.png" alt="North Pole Azimuthal Equidistant" width='500px'>
     </a>
 
     <h2>World Van der Grinten I Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>grid curves instead of lines, only equator is straight</li>
+        <li>area distortion toward poles</li>
+        <li>shape distortion away from the meridian and equator</li>
+    </ul>
     <a href="maps/ESRI 54029.png">
         <img src="maps/ESRI 54029.png" alt="World Van der Grinten" width='500px'>
     </a>
 
     <h2>World Polyconic Projection</h2>
     <h3>Some observations</h3>
+    <ul>
+        <li>only equator is a line, all other "lines" are very distorted</li>
+        <li>looks like conic projection was applied to both poles</li>
+        <li>Russia and Alaska are apart like in the World Equidistant Conic projection</li>
+    </ul>
     <a href="maps/ESRI 54021.png">
         <img src="maps/ESRI 54021.png" alt="World Polyconic" width='500px'>
     </a>

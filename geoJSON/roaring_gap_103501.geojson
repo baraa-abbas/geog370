@@ -1,0 +1,7 @@
+{
+"type": "FeatureCollection",
+"name": "roaring_gap_103501",
+"features": [
+{ "type": "Feature", "properties": { "Name": "Roaring_Gap", "descriptio": null, "timestamp": null, "begin": null, "end": null, "altitudeMo": null, "tessellate": -1, "extrude": 0, "visibility": -1, "drawOrder": null, "icon": null }, "geometry": { "type": "Point", "coordinates": [ 1415705.306365561205894, 971422.551779677974992, 0.0 ] } }
+]
+}

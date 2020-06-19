@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "WS_Cook_Out",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1 }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -78.748362049219807, 35.764219972918667 ], [ -78.748344453761646, 35.764266600882799 ], [ -78.748089906133572, 35.764193579731426 ], [ -78.748113073486806, 35.764146071994382 ], [ -78.748362049219807, 35.764219972918667 ] ] ] ] } }
+]
+}
